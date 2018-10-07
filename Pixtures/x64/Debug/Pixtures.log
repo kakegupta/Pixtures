@@ -1,0 +1,25 @@
+﻿Build started 5/23/2016 2:23:07 AM.
+     1>Project "C:\Users\kgupta\Documents\Visual Studio 2013\Projects\Pixtures\Pixtures\Pixtures.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\kgupta\Documents\Visual Studio 2013\Projects\SexySnake II\opencv\build\include" /Zi /nologo /W3 /WX- /Od /D WIN32 /D WIN64 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt Canvas.cpp Main.cpp Pixels.cpp
+         Pixels.cpp
+     1>Pixels.cpp(11): warning C4244: 'initializing' : conversion from 'intptr_t' to 'int', possible loss of data
+         Main.cpp
+     1>Main.cpp(51): warning C4244: 'initializing' : conversion from 'intptr_t' to 'int', possible loss of data
+         Canvas.cpp
+     1>Canvas.cpp(100): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Canvas.cpp(101): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>Canvas.cpp(102): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\kgupta\Documents\Visual Studio 2013\Projects\Pixtures\x64\Debug\Pixtures.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\kgupta\Documents\Visual Studio 2013\Projects\SexySnake II\opencv\build\x64\vc12\lib" opencv_world310d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\kgupta\Documents\Visual Studio 2013\Projects\Pixtures\x64\Debug\Pixtures.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\kgupta\Documents\Visual Studio 2013\Projects\Pixtures\x64\Debug\Pixtures.lib" /MACHINE:X64 x64\Debug\Canvas.obj
+         x64\Debug\Main.obj
+         x64\Debug\Pixels.obj
+         x64\Debug\Pixture.obj
+         x64\Debug\Intensity.obj
+         Pixtures.vcxproj -> C:\Users\kgupta\Documents\Visual Studio 2013\Projects\Pixtures\x64\Debug\Pixtures.exe
+     1>Done Building Project "C:\Users\kgupta\Documents\Visual Studio 2013\Projects\Pixtures\Pixtures\Pixtures.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.08
